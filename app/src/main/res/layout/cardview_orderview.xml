@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:id="@+id/cst_name"
+            android:text="Customer_Name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:id="@+id/cst_mob"
+            android:text="Mob_No"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

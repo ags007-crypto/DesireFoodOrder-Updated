@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food Order Malviya Nagar</string>
+    <string name="slogan">Choose from below:</string>
+    <string name="Breakfast">BREAKFAST \n(Today: BREAD TOAST, 2 BOILED EGG)</string>
+    <string name="Lunch">LUNCH \n(Today: Roti, Aalu Sabzi, Rice, Rajma)</string>
+    <string name="Dinner">DINNER \n(Today: CHICKEN FRIED RICE)</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/menu_type"
+        >
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast"
+            android:id="@+id/bf_menu"
+            />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch"
+            android:id="@+id/l_menu"
+            />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner"
+            android:id="@+id/d_menu"
+            />
+
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/menu_type"
+        android:hint="Enter the menu here"
+        android:textSize="20dp"
+        android:gravity="top"
+        android:id="@+id/input_menu"
+        android:inputType="textMultiLine"
+        android:layout_centerHorizontal="true"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/input_menu"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_change"/>
+
+
+
+</RelativeLayout>

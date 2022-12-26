@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/owner_login"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Owner Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="30dp"
+            android:layout_marginTop="300dp"
+            android:id="@+id/txtslogan"
+            android:textColor="@android:color/white"
+            android:text="@string/slogan"
+            android:textAlignment="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnBreakfast"
+            android:text="BREAKFAST"
+            android:layout_margin="10dp"
+            android:visibility="invisible"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="#11a800"
+
+            />
+        <Button
+            android:id="@+id/btnLunch"
+            android:text="LUNCH"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="#11a800"
+            />
+        <Button
+            android:id="@+id/btnDinner"
+            android:text="DINNER"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:backgroundTint="#11a800"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnBreakfastclosed"
+            android:text="BREAKFAST ORDER CLOSED"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="#787878"
+
+            />
+        <Button
+            android:id="@+id/btnLunchclosed"
+            android:text="LUNCH ORDER CLOSED"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="#787878"
+            />
+        <Button
+            android:id="@+id/btnDinnerclosed"
+            android:text="DINNER ORDER CLOSED"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="#787878"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
